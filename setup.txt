@@ -1,0 +1,16 @@
+#Termux
+Mở termux
+pkg update && pkg upgrade -y
+termux-setup-storage
+pkg install python -y
+pip install --upgrade pip
+pip install -r requirements.txt hoặc pip install <tên module>
+python main.py hoặc python <tên file>.py
+
+#Pc
+Cài python https://www.python.org/
+Nhớ ấn chọn Add Python to PATH khi cài đặt
+Mở PowerShell hoặc CMD
+pip install --upgrade pip
+pip install -r requirements.txt hoặc pip install <tên module>
+python main.py hoặc python <tên file>.py
